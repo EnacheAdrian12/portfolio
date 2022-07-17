@@ -13,7 +13,7 @@ html {
   margin: 0 auto;
 }
 .screen-changes{
-    opacity: 0;
+  opacity: 0;
   position: absolute;
   left:0;
   right: 0;

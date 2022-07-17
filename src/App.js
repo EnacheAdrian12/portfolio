@@ -15,7 +15,7 @@ function App() {
       <h1 className="screen-changes">Please go back to 1400px+ screen</h1>
       <Routes>
         <Route
-          path="/"
+          path="/portfolio"
           element={
             <Fragment>
               <div className="container">
@@ -27,9 +27,9 @@ function App() {
             </Fragment>
           }
         />
-        <Route path="/guessthenumber" element={<GuessNumber />} />
-        <Route path="/googlecopy" element={<GoogleCopy />} />
-        <Route path="/fruitswebsite" element={<FruitsWebsite />} />
+        <Route path="/portfolio/guessthenumber" element={<GuessNumber />} />
+        <Route path="/portfolio/googlecopy" element={<GoogleCopy />} />
+        <Route path="/portfolio/fruitswebsite" element={<FruitsWebsite />} />
       </Routes>
     </Fragment>
   );
