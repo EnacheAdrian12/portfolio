@@ -12,12 +12,11 @@ import FruitsWebsite from "./ProjectsFolder/FruitsWebsite/FruitsWebsite";
 function App() {
   return (
     <Fragment>
-      <h1 className="screen-changes">Please go back to 1400px+ screen</h1>
       <Routes>
         <Route
           path="/portfolio"
           element={
-            <div className="screen-changes2"> 
+            <div className="screen-changes"> 
               <div className="container">
                 <Name />
                 <About />

@@ -12,26 +12,14 @@ html {
   max-width: 170rem;
   margin: 0 auto;
 }
-.screen-changes{
-  opacity: 0;
-  position: absolute;
-  left:0;
-  right: 0;
-  text-align: center;
-  top: 50%;
-  color: black;
-  font-size: 40px;
+
   
   
-}
+
 @media screen and (max-width: 1400px ){
-  .screen-changes2{
+  .screen-changes{
     opacity: 0;
     background-color: white;
-  }
-  .screen-changes{
-  opacity: 1;
-  color: white;
   }
   
 }

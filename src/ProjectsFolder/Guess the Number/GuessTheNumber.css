@@ -1,4 +1,4 @@
-@import url("http://fonts.cdnfonts.com/css/games");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 /* Here is the styles for all the applcation */
 * {
   padding: 0;
@@ -13,7 +13,7 @@ body {
 }
 .big-div-guessgame {
   background-color: #a0aecd;
-  font-family: "Games", sans-serif;
+  font-family: "Press Start 2P", cursive;
   height: 100vh;
 }
 .line {
@@ -33,32 +33,33 @@ body {
   margin-left: 45%;
   margin-right: 45%;
   border-style: double;
-  font-family: "Games", sans-serif;
+  font-family: "Press Start 2P", cursive;
   margin-bottom: 10rem;
 }
 
 .caset-number {
   text-align: center;
-  font-size: 12rem;
+  font-size: 10rem;
+  margin-top: 1rem;
 }
 
 .guess-caset {
   display: grid;
   grid-template-columns: 2fr 2fr;
-  font-size: 4rem;
+  font-size: 2.4rem;
   margin-left: 47rem;
 }
 .choose-number {
   position: absolute;
   right: 5%;
-  font-size: 40px;
-  top: 10%;
+  font-size: 1.7rem;
+  top: 7%;
 }
 .your-number {
-  margin-bottom:1rem ;
+  margin-bottom: 1rem;
 }
 .input-number {
-   width: 23rem;
+  width: 23rem;
   height: 8rem;
   font-size: 7rem;
   font-weight: 800;
@@ -66,8 +67,8 @@ body {
   border: 1rem black solid;
 }
 .button-number {
-   margin-top: 2rem;
- background-color: #a0aecd;
+  margin-top: 2rem;
+  background-color: #a0aecd;
   font-size: 2.7rem;
   font-weight: 900;
   border: 0.6rem black solid;
@@ -83,10 +84,10 @@ body {
   height: 60px;
   top: 0%;
   left: 0%;
-  font-size: 50px;
+  font-size: 3rem;
 
   background-color: #a0aecd;
-  font-family: "Games", sans-serif;
+  font-family: "Press Start 2P", cursive;
 }
 
 .button-number:hover {
@@ -97,14 +98,14 @@ body {
 }
 .start {
   position: absolute;
-  width: 400px;
-  height: 60px;
+  width: 40rem;
+  height: 6rem;
   top: 50%;
   left: 40%;
-  font-size: 50px;
+  font-size: 3.2rem;
   background-color: black;
   color: white;
-  font-family: "Games", sans-serif;
+  font-family: "Press Start 2P", cursive;
 }
 .start:hover {
   color: white;
