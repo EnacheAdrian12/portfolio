@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1dc57aef.css",
+    "main.js": "/portfolio/static/js/main.fa2b1a97.js",
+    "static/js/787.43d6189f.chunk.js": "/portfolio/static/js/787.43d6189f.chunk.js",
+    "static/media/aurelian.jpg": "/portfolio/static/media/aurelian.4356acb6f2e6d5b67d12.jpg",
+    "static/media/seatle.jpg": "/portfolio/static/media/seatle.c018999d8ea9591af697.jpg",
+    "static/media/kansas.jpg": "/portfolio/static/media/kansas.813200df932a2c67cc52.jpg",
+    "static/media/hero2.jpg": "/portfolio/static/media/hero2.6704cb74a1812ac64e4c.jpg",
+    "static/media/nashville.jpg": "/portfolio/static/media/nashville.e0c58fafd4b3850c1f24.jpg",
+    "static/media/san francisco.jpg": "/portfolio/static/media/san francisco.9101d6b1f1506deecfc3.jpg",
+    "static/media/albuquerque.jpg": "/portfolio/static/media/albuquerque.103bef72176530c453c7.jpg",
+    "static/media/pittsburgh.jpg": "/portfolio/static/media/pittsburgh.d2e9f2577f5758ac8103.jpg",
+    "static/media/niko.jpg": "/portfolio/static/media/niko.b4a00a1858d71c8996bf.jpg",
+    "static/media/juicewebsite.png": "/portfolio/static/media/juicewebsite.1601927e2a78538b430d.png",
+    "static/media/googleCopyImage.png": "/portfolio/static/media/googleCopyImage.9af424324fbc6e3e99de.png",
+    "static/media/fabio.jpg": "/portfolio/static/media/fabio.9adf53166d574880e95a.jpg",
+    "static/media/farm.jpg": "/portfolio/static/media/farm.c6af86a553b49e28a0da.jpg",
+    "static/media/brothers.jpg": "/portfolio/static/media/brothers.0e819dccbf6bbd25b7de.jpg",
+    "static/media/houston.jpg": "/portfolio/static/media/houston.f654572af3cf7f527d56.jpg",
+    "static/media/timothy.jpg": "/portfolio/static/media/timothy.415807d54b0dfea2155f.jpg",
+    "static/media/juice1.jpg": "/portfolio/static/media/juice1.f3ba01f0461a507eccea.jpg",
+    "static/media/GoogleImage.png": "/portfolio/static/media/GoogleImage.51bd88b91fe4cca4abda.png",
+    "static/media/christian.jpg": "/portfolio/static/media/christian.9aa1fca328ca39e0f6d9.jpg",
+    "static/media/phoenix.jpg": "/portfolio/static/media/phoenix.6712f5ad237db4282ca7.jpg",
+    "static/media/tucson.jpg": "/portfolio/static/media/tucson.f9e0bc0c505b4393ff28.jpg",
+    "static/media/juice2.jpg": "/portfolio/static/media/juice2.55d9a9650e597ee56371.jpg",
+    "static/media/san diego.jpg": "/portfolio/static/media/san diego.ef8b9d7cc797a51fca66.jpg",
+    "static/media/guess_number.png": "/portfolio/static/media/guess_number.c2911e78bae65ae0bdb7.png",
+    "index.html": "/portfolio/index.html",
+    "main.1dc57aef.css.map": "/portfolio/static/css/main.1dc57aef.css.map",
+    "main.fa2b1a97.js.map": "/portfolio/static/js/main.fa2b1a97.js.map",
+    "787.43d6189f.chunk.js.map": "/portfolio/static/js/787.43d6189f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1dc57aef.css",
+    "static/js/main.fa2b1a97.js"
+  ]
+}
