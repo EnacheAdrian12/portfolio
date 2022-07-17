@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.project1-big-div {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  border: 2px white solid;
+  padding-top: 50px;
+  border-radius: 20px;
+}
+.project1-first-caset {
+  height: 400px;
+}
+.project1-first-caset-header {
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  font-style: oblique;
+  margin-left: 19rem;
+  font-size: 2.2rem;
+}
+.project1-view-point {
+  height: 25rem;
+  border: 2px white solid;
+  margin-top: 7rem;
+  margin-left: 6rem;
+  padding-left: 3rem;
+  margin-right: 26rem;
+  padding-right: 3rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+.project1-view-point-header {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 15rem;
+  margin-top: 1.5rem;
+  letter-spacing: 1.5px;
+}
+.project1-view-point-link {
+  padding: 0.5rem 1.5rem;
+  color: black;
+  background: linear-gradient(to bottom, #7e620d, #fcc419);
+  font-weight: 800;
+  text-decoration: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 1.5rem;
+  
+}
+
+.project1-second-caset-header {
+  color: white;
+  margin-bottom: 6rem;
+  text-align: center;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2.2rem;
+}
+.project1-second-caset-paragraph {
+  color: white;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+.project1-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../Images/guess_number.png");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 228, 196, 0.3);
+  background-position: center;
+}
+.project1-background:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../Images/guess_number.png");
+  background-position: center;
+  background-size: 70rem;
+  transition: all 0.5s;
+}
+.project1-view-point-link:hover {
+  font-size: 1.4rem;
+  transition: all 0.3s;
+}
+.project2-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../Images/googleCopyImage.png");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 228, 196, 0.3);
+  background-position: center;
+}
+.project2-background:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../Images/googleCopyImage.png");
+  background-position: center;
+  background-size: 70rem;
+  transition: all 0.5s;
+}
+.project3-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../Images/juicewebsite.png");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 228, 196, 0.3);
+  background-position: center;
+}
+.project3-background:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../Images/juicewebsite.png");
+  background-position: center;
+  background-size: 70rem;
+  transition: all 0.5s;
+}

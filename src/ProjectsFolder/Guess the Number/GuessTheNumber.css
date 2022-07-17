@@ -1,0 +1,111 @@
+@import url("http://fonts.cdnfonts.com/css/games");
+/* Here is the styles for all the applcation */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 62.5%;
+}
+.container {
+  max-width: 170rem;
+  margin: 0 auto;
+}
+.big-div-guessgame {
+  background-color: #a0aecd;
+  font-family: "Games", sans-serif;
+  height: 100vh;
+}
+.line {
+  height: 30rem;
+  background-color: darkgray;
+  margin-left: 49.6%;
+  margin-right: 49.6%;
+  border: 0.4rem black solid;
+  border-bottom: none;
+  border-top: none;
+  border-style: double;
+}
+.caset-guess {
+  background-color: darkgray;
+  border-radius: 30%;
+  border: 1rem white solid;
+  margin-left: 45%;
+  margin-right: 45%;
+  border-style: double;
+  font-family: "Games", sans-serif;
+  margin-bottom: 10rem;
+}
+
+.caset-number {
+  text-align: center;
+  font-size: 12rem;
+}
+
+.guess-caset {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  font-size: 4rem;
+  margin-left: 47rem;
+}
+.choose-number {
+  position: absolute;
+  right: 5%;
+  font-size: 40px;
+  top: 10%;
+}
+.your-number {
+  margin-bottom:1rem ;
+}
+.input-number {
+   width: 23rem;
+  height: 8rem;
+  font-size: 7rem;
+  font-weight: 800;
+  background-color: #a0aecd;
+  border: 1rem black solid;
+}
+.button-number {
+   margin-top: 2rem;
+ background-color: #a0aecd;
+  font-size: 2.7rem;
+  font-weight: 900;
+  border: 0.6rem black solid;
+  margin-bottom: 2rem;
+}
+.guess-number {
+  margin-bottom: 10rem;
+}
+
+.again-button {
+  position: absolute;
+  width: 150px;
+  height: 60px;
+  top: 0%;
+  left: 0%;
+  font-size: 50px;
+
+  background-color: #a0aecd;
+  font-family: "Games", sans-serif;
+}
+
+.button-number:hover {
+  color: white;
+}
+.again-button:hover {
+  color: white;
+}
+.start {
+  position: absolute;
+  width: 400px;
+  height: 60px;
+  top: 50%;
+  left: 40%;
+  font-size: 50px;
+  background-color: black;
+  color: white;
+  font-family: "Games", sans-serif;
+}
+.start:hover {
+  color: white;
+}

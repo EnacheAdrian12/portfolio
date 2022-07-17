@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer-hr {
+  margin-top: 20rem;
+}
+.footer-big-div {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+.footer-small-div {
+  margin-top: 10rem;
+  display: block;
+  margin-bottom: 12rem;
+  justify-content: center;
+}
+.header-small-div {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-align:center ;
+  letter-spacing: 0.16rem;
+}
+.footer-link {
+  text-decoration: none;
+  color: #fcc419;
+  font-size: 2rem;
+}
+.footer-link:hover {
+  color: White;
+  cursor: pointer;
+}
+.footer-link-contact {
+  color: #fcc419;
+  font-size: 2rem;
+  
+}
+.footer-link-contact:hover {
+  color: White;
+  cursor: default;
+}
