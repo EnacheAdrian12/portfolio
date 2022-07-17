@@ -34,30 +34,35 @@ const Projects = () => {
  
   return (
     <Fragment>
-    
       <div className="projects container2">
         <h1 className="projects-h1">My Projects</h1>
-        
-          <div className="projects-div">
-            <div className="caset">
-              <Link to="/" className={style1} onClick={Link1Handler}>
-                PROJECT 1
-              </Link>
-            </div>
-            <div className="caset">
-              <Link to="/" className={style2} onClick={Link2Handler}>
-                PROJECT 2
-              </Link>
-            </div>
-            <div className="caset">
-              <Link to="/" className={style3} onClick={Link3Handler}>
-                PROJECT 3
-              </Link>
-            </div>
+
+        <div className="projects-div">
+          <div className="caset">
+            <Link to="/portfolio" className={style1} onClick={Link1Handler}>
+              PROJECT 1
+            </Link>
           </div>
-        
+          <div className="caset">
+            <Link to="/portfolio" className={style2} onClick={Link2Handler}>
+              PROJECT 2
+            </Link>
+          </div>
+          <div className="caset">
+            <Link to="/portfolio" className={style3} onClick={Link3Handler}>
+              PROJECT 3
+            </Link>
+          </div>
+        </div>
+
         <div className="projects-route">
-          {changeProject === 1 ? <Project1/> : changeProject=== 2 ? <Project2/> : <Project3/> }
+          {changeProject === 1 ? (
+            <Project1 />
+          ) : changeProject === 2 ? (
+            <Project2 />
+          ) : (
+            <Project3 />
+          )}
         </div>
       </div>
     </Fragment>

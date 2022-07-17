@@ -17,19 +17,19 @@ function App() {
         <Route
           path="/portfolio"
           element={
-            <Fragment>
+            <div className="screen-changes2"> 
               <div className="container">
                 <Name />
                 <About />
                 <Projects />
               </div>
               <Footer />
-            </Fragment>
+            </div>
           }
         />
-        <Route path="/portfolio/guessthenumber" element={<GuessNumber />} />
-        <Route path="/portfolio/googlecopy" element={<GoogleCopy />} />
-        <Route path="/portfolio/fruitswebsite" element={<FruitsWebsite />} />
+        <Route path="/guessthenumber" element={<GuessNumber />} />
+        <Route path="googlecopy" element={<GoogleCopy />} />
+        <Route path="fruitswebsite" element={<FruitsWebsite />} />
       </Routes>
     </Fragment>
   );
