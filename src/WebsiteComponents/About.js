@@ -26,10 +26,10 @@ const About = () => {
             <h1 className="about-caset-title ">My skills</h1>
             <p className="about-caset-paragraph caset2">
               <div className="myskills-caset">
-                <p>⭐HTML⭐</p>
-                <p>⭐CSS⭐</p>
-                <p>⭐JAVASCRIPT⭐</p>
-                <p>⭐REACT FRAMEWORK⭐</p>
+                <p>⭐HTML</p>
+                <p>⭐CSS</p>
+                <p>⭐JAVASCRIPT</p>
+                <p>⭐REACT FRAMEWORK</p>
               </div>
             </p>
           </div>

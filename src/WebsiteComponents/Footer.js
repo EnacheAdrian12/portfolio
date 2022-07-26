@@ -32,7 +32,10 @@ const Footer = () => {
       <div className="footer-big-div">
         <div className="footer-small-div">
           <h1 className="header-small-div">Sections</h1>
-
+          <Link to="" onClick={goUp} className="footer-link">
+            Home
+          </Link>
+          <br />
           <Link to="" onClick={goToAbout} className="footer-link">
             About
           </Link>
@@ -40,20 +43,15 @@ const Footer = () => {
           <Link to="" onClick={goToProjects} className="footer-link">
             Projects
           </Link>
-          <br />
-          <Link to="" onClick={goUp} className="footer-link">
-            Home
-          </Link>
         </div>
         <div className="footer-small-div">
           <h1 className="header-small-div">Social</h1>
-
-          <a href={instagram} className="footer-link">
-            Instagram
-          </a>
-          <br />
           <a href={linkedln} className="footer-link">
             Linkedln
+          </a>
+          <br />
+          <a href={instagram} className="footer-link">
+            Instagram
           </a>
         </div>
         <div className="footer-small-div">
@@ -65,7 +63,6 @@ const Footer = () => {
             <MdPhone /> 0762612978
           </h1>
         </div>
-        
       </div>
     </Fragment>
   );
