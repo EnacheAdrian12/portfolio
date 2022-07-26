@@ -9,12 +9,13 @@ const About = () => {
           <div className="about-caset">
             <h1 className="about-caset-title">About me </h1>
             <p className="about-caset-paragraph">
-              &nbsp;&nbsp;&nbsp; Hello, my name is Adrian. A 20 years old
+              &nbsp;&nbsp; Hello, my name is Adrian, a 20 years old
               entry-level web developer, who is eager to approach new challenges
-              with creativity and discipline. My ability to adapt allows me to
-              respond to the demands of this field with a big smile. Even though
-              I am an outgoing individual, I take my work seriously by improving
-              my personal skills, therefore my surroundings.
+              with creativity and discipline. My ability to adapt to different
+              tasks, allows me to respond to the demands of this field without
+              problems. Even though I don't have a lot of experience, I take my
+              work seriously and I am eager to learn a lot of new skills that
+              will benefit me in my career as a web developer.
             </p>
           </div>
 

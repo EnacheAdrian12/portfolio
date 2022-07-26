@@ -17,7 +17,7 @@ const Project1 = () => {
         <div className="project1-second-caset">
           <h1 className="project1-second-caset-header">About</h1>
           <p className="project1-second-caset-paragraph">
-            Guess the Number is a browser mini-game where somebody can click and
+            Guess the Number is a browser mini-game where somebody can
             try to guess the number that is generated automatically, a number
             between 1 and 20. This mini-game has a high score and the best you
             can do is, obviously, 20. You can play it right now by clicking
